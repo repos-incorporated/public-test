@@ -40,3 +40,6 @@ jobs:
     environment: production
     steps:
       - name: deploy
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
