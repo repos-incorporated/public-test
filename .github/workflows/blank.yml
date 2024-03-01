@@ -37,7 +37,7 @@ jobs:
     
   deployment:
     runs-on: ubuntu-latest
-    environment: production
+    environment: Greg
     steps:
       - name: deploy
         run: |
