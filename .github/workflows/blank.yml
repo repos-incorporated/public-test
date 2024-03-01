@@ -34,9 +34,7 @@ jobs:
     environment: Greg
     steps:
       - name: deploy
-
       # Runs a set of commands using the runners shell
-      - name: adsfadfs
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
